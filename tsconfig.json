@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist", /* es el directorio donde se guardan los archivos compilados */
+        "rootDir": "./src",/*es el directorio donde se encuentran los archivos a compilar */
+        "lib": ["ESNext"],/*es el conjunto de librerias que se van a utilizar */
+        "target": "ESNext",/*es la version de ECMAScript mas proxima a la que se va a compilar */
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",/*debes ponerlo cuando pnes lo demas sino no funciona */
+        "strict": false,
+        "sourceMap": true,/*genera un archivo de mapas de cada archivo */
+        "esModuleInterop": true,
+        "declaration":true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.test.ts"]
+}
+/***/
